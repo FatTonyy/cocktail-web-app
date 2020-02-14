@@ -12,7 +12,7 @@ export default function CocktailList({ cocktails, loading }) {
   }
 
   return (
-    <section className="section-title">
+    <section className="section">
       <h2 className="section-title">Cocktails</h2>
       <div className="cocktails-center">
         {cocktails.map(item => {
